@@ -28,6 +28,8 @@
     "react-helmet": "6.1.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "12.1.1",
+    "@commitlint/config-conventional": "12.1.1",
     "@types/node": "15.0.1",
     "@types/react": "17.0.4",
     "@types/react-dom": "17.0.3",
@@ -43,6 +45,7 @@
     "gatsby-plugin-eslint": "3.0.0",
     "gatsby-plugin-postcss": "^4.4.0",
     "gatsby-plugin-prettier-eslint": "1.0.6",
+    "husky": "6.0.0",
     "postcss": "^8.2.13",
     "prettier": "2.2.1",
     "tailwindcss": "^2.1.2",
