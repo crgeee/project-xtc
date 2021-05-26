@@ -1,16 +1,10 @@
 import React from 'react';
-import SEO from '../components/SEO';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const IndexPage = () => {
   return (
     <>
-      <SEO
-        keywords={[`crpyto`, `bitcoin`, `blockchain`, `tailwindcss`]}
-        title="Home"
-        description="The homepage"
-      />
       <Navbar transparent />
       <main>
         <div
